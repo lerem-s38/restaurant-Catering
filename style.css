@@ -1,0 +1,160 @@
+:root {
+	--title               : 'Playfair Display', serif ;
+  --couleurdefondbody   :#fff ;
+  --policeparagraphe    :"Times New Roman", Georgia, Serif ;
+  --couleurdefondfooter : #f1f1f1 ;
+  --colorpolice         : black ;
+  --gris                : rgb(169,169,169)
+}
+body{padding:0 ;}
+
+ h1,h2, h3, h4, h5, h6 {
+  font-family: var( --policeparagraphe);
+  letter-spacing: 5px;
+  color:var(--colorpolice )
+}
+  ul {
+  list-style-type: none ;
+  gin:0;
+  padding: 0 ;
+  overflow: hidden ;
+  background-color: var ( --couleurdefondbody ) ;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12) ;
+  
+  
+}
+
+li {float: right ;}
+
+li a {
+  display: block ;
+  color: var( --colorpolice  );
+  text-align: center ;
+  padding: 14px 16px ;
+  text-decoration: none ;
+  font-family: var ( --policeparagraphe )
+  font-size: 1.2em ;
+  letter-spacing: 5px ;
+ 
+}
+  
+
+li a:hover:not(.active) {background-color: lightgray ;  text-decoration: none ;}
+.active {text-decoration: none ;}
+.active:hover{background-color: lightgray ; text-decoration:none ;}
+  
+  
+.img1{max-width: 100%;height: auto;margin-top : -20px ;}
+
+
+
+.titre1{
+  margin: -60px 25px 0px 25px ;
+  color: var(--gris ) ;
+}
+
+                                   /*/about/*/
+
+.img2{max-width: 100%;height: auto; margin: 60px 0px 0px 120px ; float:left ; }
+
+.conteneur_principal{
+  display:flex;
+  flex-direction: column ;
+  text-align: center;
+  padding: 80px 0px 0px 0px ;
+}
+
+.span_1{
+  background-color: lightgray  ;
+}
+
+.separateur_1{
+  width: 60% ;
+  height:1px ;
+  display: block ;
+  background: #999999 ;
+  margin: 90px auto ;
+
+}
+
+                                  /*/Menu/*/
+
+.img3{max-width: 100%;height: auto; margin: -10px 90px 0px 0px ; float:right ; }
+
+.contenu_principal_2{
+  display:flex;
+  flex-direction: column ;
+  text-align: center; 
+}
+
+.separateur_2{
+  width: 60% ;
+  height:1px ;
+  display: block ;
+  background: #999999 ;
+  margin: 150px auto ;
+   }
+
+                                             /*/contact/*/
+b{
+  color: #607d8b ;
+}
+
+form ,div{
+  margin:  auto;
+  width: 50%;
+  padding: 1em;
+  border-radius: 1em;
+  font:inherit ;  
+}
+
+input{
+  display: block ;
+  input:focus 
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+ 
+
+label{
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;  
+}
+
+.bouton{
+  display: flex;
+justify-content:center
+}
+
+textarea{
+  height: 20em ;
+}
+
+footer{
+  position:static;
+ 
+  width: 100%;
+  display: flex;
+
+}
+
+.cont_footer{
+  justify-content:center ;
+  
+}
+ 
+  
+
+
+  
+
+
+

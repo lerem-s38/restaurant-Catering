@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Gourmet au Catering</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  
+      <nav class="sticky-top bg-light">
+    <ul>
+  <li><a href="#default" 
+         title="About">About</a></li>
+  <li><a href="#news" 
+         title="Menu">Menu</a></li>
+  <li><a href="#contact" 
+         title="contact">Contact</a></li>
+  <li style="float:left"><a class="active" href="#home" 
+                            title="Home">Gourmet au Catering</a></li>
+</ul>
+      </nav>
+    
+     <img id="home" class="img1" src = "pictures/burger.jpg" alt = "image burger" width="1600" height="800">     
+  
+  <header>
+  <H1 class="titre1">Le Catering</H1> 
+  </header>
+  
+                                    <!-- About Section -->
+  
+  <section>
+     <img class="img2" src="pictures/plat.jpg"  alt="Table Setting" width="500" height="750">
+    
+
+    <div class="conteneur_principal ">
+      <h2 id="default">About Catering</h2><br>
+      <h5>Tradition since 1889</h5>
+      <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="span_1">seasonal</span> ingredients.</p>
+      <p class="text-muted" >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <span class="separateur_1"></span>
+  </section>
+  
+                                              <!-- Menu Section -->
+  
+  <section>
+    
+     <img class="img3" src="pictures/applecake.jpg"   width="500" height="750" alt="Menu">
+    
+    <div class="contenu_principal_2">
+      <h2 id="news" class="soustitre">Our Menu</h2><br>
+      
+      <h4>Bread Basket</h4>
+      <p class="font-weight-lighter">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="font-weight-lighter">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class="font-weight-lighter">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="font-weight-lighter">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class="font-weight-lighter">With syrup, butter and lots of berries 8.50</p>    
+    </div>
+    <span class="separateur_2"></span> 
+</section>
+  
+                                  <!--Contact --> 
+  
+  <div class=" contenu_principal_3 container p-3" id="contact">
+    <h2>Contact</h2><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p class="">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="exemple@.com" target="_blank">
+      <div>
+        <input class="bar" type="text" placeholder="Name" required name="Name">
+        </div>
+      <div>
+      <input type="number" placeholder="How many people" required name="People">
+      </div>
+      <div>
+      <input type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00">
+      </div>
+      <div>
+        <input type="text" placeholder="Message \ Special requirements" required name="Message">
+        </div>
+        <div class="bouton">
+      <button class="btn btn-outline-secondary " type="submit">SEND MESSAGE</button>
+      </div>
+    </form>
+  </div>
+  
+  <footer class=" p-3  bg-light text-white ">
+    <div class ="cont_footer">
+    <ul>
+        
+       <li><a class="linkedin" title="Mon linkdin"
+              href="https://www.linkedin.com/in/remi-cusset-94b632192/" target= "_blank"><i class="fa fa-linkedin"></i></a></li>
+       <li><a class="github" title="Mon Github"
+              href="https://github.com/lerem-s38" target= "_blank"><i class="fa fa-github"></i></a></li>
+       <li><a href="https://www.w3schools.com/w3css/w3css_templates.asp" target= "_blank"> Remi CUSSET inspire by W3school.com</a></li>
+               
+    </ul>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
